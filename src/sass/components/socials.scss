@@ -1,0 +1,16 @@
+.socials {
+  display: flex;
+}
+
+.socials-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 26px;
+  height: 26px;
+}
+
+.socials-icon {
+  width: 100%;
+}
