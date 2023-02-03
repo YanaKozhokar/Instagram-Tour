@@ -16,6 +16,7 @@
 
 .popular__item {
   width: 280px;
+  padding-bottom: 45px;
   object-fit: cover;
 }
 
@@ -45,6 +46,16 @@
 }
 
 .swiper-button-prev,
-.swiper-button-next {
+.swiper-button-next,
+.swiper-pagination {
   color: $accent-color;
+}
+
+.swiper-pagination-bullet {
+  background-color: #989898;
+  color: #989898;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $accent-color;
 }
