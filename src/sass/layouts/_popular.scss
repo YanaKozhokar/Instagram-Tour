@@ -1,0 +1,11 @@
+.popular__header {
+  display: flex;
+  justify-content: space-between;
+  & .pretitle {
+    max-width: 323px;
+  }
+}
+
+.popular__description {
+  max-width: 532px;
+}
