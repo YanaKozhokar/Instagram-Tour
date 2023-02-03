@@ -1,1 +1,37 @@
+.header__contacts {
+  background-color: $background-accent;
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 
+.header__tel {
+  font-size: 14px;
+  font-weight: 500;
+  color: $secondary-text-color;
+}
+
+.header__main {
+  background-color: $background-primary;
+  & .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+  color: $title-color;
+}

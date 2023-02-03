@@ -1,0 +1,28 @@
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials-item {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background-color: $socials-bg-primary;
+  &:hover {
+    background-color: $socials-bg-accent;
+  }
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.socials-icon {
+  fill: $socials-icon-fill;
+  width: 60%;
+  height: 60%;
+}
