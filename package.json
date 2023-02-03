@@ -1,21 +1,21 @@
 {
-  "name": "instagram-tour",
+  "name": "Instagram-Tour",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/YanaKozhokar/instagram-tour",
+  "homepage": "https://github.io/YanaKozhokar/Instagram-Tour",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /instagram-tour/"
+    "build": "parcel build src/*.html --public-url /Instagram-Tour/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YanaKozhokar/instagram-tour"
+    "url": "git+https://github.io/YanaKozhokar/Instagram-Tour"
   },
   "keywords": [],
   "author": "Yana Kozhokar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YanaKozhokar/instagram-tour/issues"
+    "url": "https://github.io/YanaKozhokar/Instagram-Tour/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
