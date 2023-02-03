@@ -9,3 +9,21 @@
 .popular__description {
   max-width: 532px;
 }
+
+.popular__gallery {
+  margin-top: 50px;
+}
+
+.popular__list {
+  display: flex;
+}
+
+.popular__item {
+  width: 250px;
+}
+
+.popular__img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
