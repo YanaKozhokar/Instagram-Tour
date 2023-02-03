@@ -17,9 +17,9 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: true,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  //   pauseOnMouseEnter: true,
+  // },
 });
