@@ -2,20 +2,20 @@
   "name": "instagram-tour",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.io/YanaKozhokar/instagram-tour",
+  "homepage": "https://github.io/yanakozhokar/instagram-tour",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /instagram-tour/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.io/YanaKozhokar/instagram-tour"
+    "url": "git+https://github.io/yanakozhokar/instagram-tour"
   },
   "keywords": [],
   "author": "Yana Kozhokar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.io/YanaKozhokar/instagram-tour/issues"
+    "url": "https://github.io/yanakozhokar/instagram-tour/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
