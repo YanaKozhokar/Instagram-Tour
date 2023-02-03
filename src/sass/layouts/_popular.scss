@@ -14,16 +14,32 @@
   margin-top: 50px;
 }
 
-.popular__list {
-  display: flex;
-}
-
 .popular__item {
-  width: 250px;
+  width: 280px;
+  object-fit: cover;
 }
 
 .popular__img {
-  display: block;
   width: 100%;
   border-radius: 6px;
+}
+
+.gallery__title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.67;
+  color: $title-color;
+}
+
+.gallery__price {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.gallery__amount {
+  font-size: 20px;
+  color: $accent-color;
 }
