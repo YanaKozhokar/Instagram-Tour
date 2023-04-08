@@ -1,0 +1,70 @@
+.about {
+  padding-top: 0;
+
+  .container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .pretitle {
+    &::after {
+      content: '';
+    }
+  }
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.about__advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.about__advantages-item {
+  display: flex;
+}
+
+.about__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $advantages-bg;
+}
+
+.about__icon {
+  width: 40px;
+  height: 40px;
+  fill: $advantages-icon-fill;
+}
+
+.about__advantages-description {
+  margin-left: 15px;
+}
+
+.about__advantages-title {
+  font-size: 24px;
+  color: $accent-color;
+}
+
+.about__img-container {
+  flex-shrink: 0;
+  width: 545px;
+  height: 637px;
+}
+
+.about__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
