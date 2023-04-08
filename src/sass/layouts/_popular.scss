@@ -1,13 +1,29 @@
 .popular__header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
   & .pretitle {
     max-width: 323px;
   }
 }
 
 .popular__description {
-  max-width: 532px;
+  margin-top: 40px;
+
+  @media (min-width: 768px) {
+    max-width: 336px;
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 532px;
+  }
 }
 
 .popular__gallery {
