@@ -7,7 +7,13 @@
 
   .container {
     display: flex;
-    gap: 170px;
+    flex-direction: column;
+    gap: 65px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 170px;
+    }
   }
 
   .pretitle {
@@ -19,13 +25,17 @@
 }
 
 .steps__services-description {
-  margin-top: 40px;
+  margin-top: 30px;
+
+  @media (min-width: 768px) {
+    margin-top: 40px;
+  }
 }
 
 .steps__services-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -48,14 +58,22 @@
 .steps__actions-list {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 30px;
   list-style: decimal;
   list-style-position: inside;
+
+  @media (min-width: 768px) {
+    gap: 50px;
+  }
 }
 
 .steps__actions-item {
-  font-size: 33px;
+  font-size: 30px;
   font-weight: 900;
+
+  @media (min-width: 768px) {
+    font-size: 33px;
+  }
 }
 
 .steps__action-explanation {
