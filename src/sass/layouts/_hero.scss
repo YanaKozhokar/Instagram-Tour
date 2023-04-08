@@ -6,24 +6,47 @@
   background-repeat: no-repeat;
   background-position: center;
   &.section {
-    padding-top: 210px;
-    padding-bottom: 280px;
+    padding-top: 160px;
+    padding-bottom: 130px;
+
+    @media (min-width: 1200px) {
+      padding-top: 210px;
+      padding-bottom: 280px;
+    }
   }
 }
 
 .hero__main {
   margin-left: auto;
-  padding: 50px;
-  max-width: 545px;
+  padding: 30px;
+  border-radius: 7px;
   color: $secondary-text-color;
   background: rgba(63, 54, 49, 0.75);
-  border-radius: 7px;
+
+  @media (min-width: 768px) {
+    padding: 35px;
+    max-width: 337px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 50px;
+    max-width: 545px;
+  }
 }
 
 .hero__title {
-  font-size: 70px;
+  font-size: 56px;
   font-weight: 900;
   line-height: 1.1;
+
+  @media (min-width: 768px) {
+    font-size: 63px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 70px;
+  }
+
   &::after {
     content: '.';
     color: $accent-color;
