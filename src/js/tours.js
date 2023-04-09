@@ -57,7 +57,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-instagram-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Photographer:</span>
+              <span class="tours__gallery-info-accent">Photographer:</span>
               Alexandro Rossa
             </p>
           </li>
@@ -66,7 +66,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-clocks-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Duration:</span>
+              <span class="tours__gallery-info-accent">Duration:</span>
               5 days
             </p>
           </li>
@@ -75,7 +75,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-star-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Type:</span> City tours,
+              <span class="tours__gallery-info-accent">Type:</span> City tours,
               History, Gastro
             </p>
           </li>
@@ -108,7 +108,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-instagram-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Photographer:</span>
+              <span class="tours__gallery-info-accent">Photographer:</span>
               Alicia Keish
             </p>
           </li>
@@ -117,7 +117,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-clocks-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Duration:</span>
+              <span class="tours__gallery-info-accent">Duration:</span>
               10 days
             </p>
           </li>
@@ -126,7 +126,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-star-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Type:</span>
+              <span class="tours__gallery-info-accent">Type:</span>
               Nature & adventure, City tours, History
             </p>
           </li>
@@ -160,7 +160,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-instagram-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Photographer:</span>
+              <span class="tours__gallery-info-accent">Photographer:</span>
               Alexandro Rossa
             </p>
           </li>
@@ -169,7 +169,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-clocks-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Duration:</span>
+              <span class="tours__gallery-info-accent">Duration:</span>
               5 days
             </p>
           </li>
@@ -178,7 +178,7 @@ function onBtnClick(event) {
               <use href="./images/icons.svg#icon-star-tour"></use>
             </svg>
             <p class="tours__gallery-info-text">
-              <span class="tours__galleru-info-accent">Type:</span> Boat tours,
+              <span class="tours__gallery-info-accent">Type:</span> Boat tours,
               City tours, History
             </p>
           </li>
@@ -214,7 +214,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
@@ -223,7 +223,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
@@ -232,7 +232,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> City tours,
+        <span class="tours__gallery-info-accent">Type:</span> City tours,
         History
       </p>
     </li>
@@ -265,7 +265,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
@@ -274,7 +274,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         5 days
       </p>
     </li>
@@ -283,7 +283,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span>
+        <span class="tours__gallery-info-accent">Type:</span>
         City tours, Gastro
       </p>
     </li>
@@ -316,7 +316,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Melissa Sol
       </p>
     </li>
@@ -325,7 +325,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
@@ -334,7 +334,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> Nature & adventure
+        <span class="tours__gallery-info-accent">Type:</span> Nature & adventure
       </p>
     </li>
   </ul>
@@ -369,7 +369,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
@@ -378,7 +378,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
@@ -387,7 +387,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> Nature & adventure
+        <span class="tours__gallery-info-accent">Type:</span> Nature & adventure
       </p>
     </li>
   </ul>
@@ -419,7 +419,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Melissa Sol
       </p>
     </li>
@@ -428,7 +428,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
@@ -437,7 +437,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span>
+        <span class="tours__gallery-info-accent">Type:</span>
         Nature & adventure, City tours
       </p>
     </li>
@@ -470,7 +470,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
@@ -479,7 +479,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
@@ -488,7 +488,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> Nature &
+        <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Safari
       </p>
     </li>
@@ -524,7 +524,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
@@ -533,7 +533,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         5 days
       </p>
     </li>
@@ -542,7 +542,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> City tours,
+        <span class="tours__gallery-info-accent">Type:</span> City tours,
         History
       </p>
     </li>
@@ -575,7 +575,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Melissa Sol
       </p>
     </li>
@@ -584,7 +584,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
@@ -593,7 +593,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span>
+        <span class="tours__gallery-info-accent">Type:</span>
         City tours, History
       </p>
     </li>
@@ -626,7 +626,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
@@ -635,7 +635,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         15 days
       </p>
     </li>
@@ -644,7 +644,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> Nature &
+        <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Resorts
       </p>
     </li>
@@ -681,7 +681,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
@@ -690,7 +690,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         5 days
       </p>
     </li>
@@ -699,7 +699,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> Nature &
+        <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Surfing
       </p>
     </li>
@@ -732,7 +732,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
@@ -741,7 +741,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
@@ -750,7 +750,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span>
+        <span class="tours__gallery-info-accent">Type:</span>
         City tours, History
       </p>
     </li>
@@ -783,7 +783,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-instagram-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Photographer:</span>
+        <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
@@ -792,7 +792,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-clocks-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Duration:</span>
+        <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
@@ -801,7 +801,7 @@ function onBtnClick(event) {
         <use href="./images/icons.svg#icon-star-tour"></use>
       </svg>
       <p class="tours__gallery-info-text">
-        <span class="tours__galleru-info-accent">Type:</span> Nature &
+        <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Diving
       </p>
     </li>

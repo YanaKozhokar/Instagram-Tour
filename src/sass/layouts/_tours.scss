@@ -92,6 +92,64 @@
   object-fit: cover;
 }
 
+.tours__gallery-title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: $title-color;
+}
+
+.tours__gallery-price {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.tours__gallery-amount {
+  font-size: 24px;
+  color: $accent-color;
+}
+
+.tours__gallery-description {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.tours__gallery-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: $thirdly-text-color;
+}
+
 .tours__gallery-info-item {
   display: flex;
+  align-items: center;
+}
+
+.tours__gallery-info-icon {
+  fill: $thirdly-text-color;
+}
+
+.tours__gallery-info-text {
+  margin-left: 10px;
+}
+
+.tours__gallery-info-accent {
+  font-weight: 700;
+}
+
+.tours__gallery-date {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.tours__gallery-date-accent {
+  color: $title-color;
 }
