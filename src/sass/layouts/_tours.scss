@@ -76,6 +76,8 @@
   height: 310px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 6px;
+  background-color: $background-secondary;
 
   @media (min-width: 768px) {
     height: 384px;
@@ -134,10 +136,6 @@
 
 .tours__gallery-info-icon {
   fill: $thirdly-text-color;
-}
-
-.tours__gallery-info-text {
-  margin-left: 10px;
 }
 
 .tours__gallery-info-accent {

@@ -31,4 +31,4 @@ function slidesAmount() {
   } else {
     return 4;
   }
-};
+}

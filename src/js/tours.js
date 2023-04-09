@@ -1,3 +1,19 @@
+import fabulousRome from '../images/fabulous-rome.jpg';
+import discoverUkraine from '../images/discover-ukraine.jpg';
+import veniceAndFlorence from '../images/venice-and-florence.jpg';
+import skyscrapers from '../images/skyscrapers.jpg';
+import statueOfLiberty from '../images/statue-of-liberty.jpg';
+import lighthouse from '../images/lighthouse.jpg';
+import cityInDesert from '../images/city-in-desert.jpg';
+import mosque from '../images/mosque.jpg';
+import elephants from '../images/elephants.jpg';
+import tajMahal from '../images/taj-mahal.jpg';
+import chineseGate from '../images/chinese-gate.jpg';
+import buddha from '../images/buddha.jpg';
+import surfers from '../images/surfers.jpg';
+import sydney from '../images/sydney.jpg';
+import divers from '../images/divers.jpg';
+
 const btnList = document.querySelector('.tours__buttons-list');
 const toursGalleryList = document.querySelector('.tours__gallery');
 
@@ -35,7 +51,7 @@ function onBtnClick(event) {
     return `<li class="tours__gallery-item">
         <div class="tours__gallery-img-container">
           <img
-            src="./images/fabulous-rome.jpg"
+            src="${fabulousRome}"
             alt="Couple in Rome"
             width="353"
             height="402"
@@ -53,27 +69,18 @@ function onBtnClick(event) {
         </p>
         <ul class="tours__gallery-info-list">
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-instagram-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Photographer:</span>
               Alexandro Rossa
             </p>
           </li>
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-clocks-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Duration:</span>
               5 days
             </p>
           </li>
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-star-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Type:</span> City tours,
               History, Gastro
@@ -87,8 +94,8 @@ function onBtnClick(event) {
       <li class="tours__gallery-item">
         <div class="tours__gallery-img-container">
           <img
-            src="./images/discover-ukraine.jpg"
-            alt="Couple in Rome"
+            src="${discoverUkraine}"
+            alt="Couple in Ukraine"
             width="353"
             height="402"
             class="tours__gallery-img"
@@ -104,27 +111,18 @@ function onBtnClick(event) {
         </p>
         <ul class="tours__gallery-info-list">
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-instagram-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Photographer:</span>
               Alicia Keish
             </p>
           </li>
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-clocks-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Duration:</span>
               10 days
             </p>
           </li>
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-star-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Type:</span>
               Nature & adventure, City tours, History
@@ -138,8 +136,8 @@ function onBtnClick(event) {
       <li class="tours__gallery-item">
         <div class="tours__gallery-img-container">
           <img
-            src="./images/venice-and-florence.jpg"
-            alt="Couple in Rome"
+            src="${veniceAndFlorence}"
+            alt="Woman in Venice"
             width="353"
             height="402"
             class="tours__gallery-img"
@@ -156,27 +154,18 @@ function onBtnClick(event) {
         </p>
         <ul class="tours__gallery-info-list">
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-instagram-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Photographer:</span>
               Alexandro Rossa
             </p>
           </li>
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-clocks-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Duration:</span>
               5 days
             </p>
           </li>
           <li class="tours__gallery-info-item">
-            <svg class="tours__gallery-info-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-star-tour"></use>
-            </svg>
             <p class="tours__gallery-info-text">
               <span class="tours__gallery-info-accent">Type:</span> Boat tours,
               City tours, History
@@ -193,7 +182,7 @@ function onBtnClick(event) {
     return `<li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/skyscrapers.jpg"
+      src="${skyscrapers}"
       alt="Skyscrapers"
       width="353"
       height="402"
@@ -210,27 +199,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> City tours,
         History
@@ -244,8 +224,8 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/statue-of-liberty.jpg"
-      alt="Couple in Rome"
+      src="${statueOfLiberty}"
+      alt="StatueOfLiberty"
       width="353"
       height="402"
       class="Statue of liberty"
@@ -261,27 +241,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         5 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span>
         City tours, Gastro
@@ -295,7 +266,7 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/lighthouse.jpg"
+      src="${lighthouse}"
       alt="Lighthouse"
       width="353"
       height="402"
@@ -312,27 +283,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Melissa Sol
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> Nature & adventure
       </p>
@@ -348,7 +310,7 @@ function onBtnClick(event) {
     return `<li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/city-in-desert.jpg"
+      src="${cityInDesert}"
       alt="City in the desert"
       width="353"
       height="402"
@@ -365,27 +327,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> Nature & adventure
       </p>
@@ -398,7 +351,7 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/mosque.jpg"
+      src="${mosque}"
       alt="Mosque"
       width="353"
       height="402"
@@ -415,27 +368,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Melissa Sol
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span>
         Nature & adventure, City tours
@@ -449,7 +393,7 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/elephants.jpg"
+      src="${elephants}"
       alt="Elephants"
       width="353"
       height="402"
@@ -466,27 +410,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Safari
@@ -503,7 +438,7 @@ function onBtnClick(event) {
     return `<li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/taj-mahal.jpg"
+      src="${tajMahal}"
       alt="Taj Mahal"
       width="353"
       height="402"
@@ -520,27 +455,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         5 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> City tours,
         History
@@ -554,7 +480,7 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/chinese-gate.jpg"
+      src="${chineseGate}"
       alt="Chinese gate"
       width="353"
       height="402"
@@ -571,27 +497,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Melissa Sol
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span>
         City tours, History
@@ -605,7 +522,7 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/buddha.jpg"
+      src="${buddha}"
       alt="Elephants"
       width="353"
       height="402"
@@ -622,27 +539,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         15 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Resorts
@@ -659,7 +567,7 @@ function onBtnClick(event) {
     return `<li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/surfers.jpg"
+      src="${surfers}"
       alt="Surfers"
       width="353"
       height="402"
@@ -677,27 +585,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         5 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Surfing
@@ -711,8 +610,8 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/sydney.jpg"
-      alt="Chinese gate"
+      src="${sydney}"
+      alt="Sydney"
       width="353"
       height="402"
       class="tours__gallery-img"
@@ -728,27 +627,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alexandro Rossa
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         7 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span>
         City tours, History
@@ -762,8 +652,8 @@ function onBtnClick(event) {
 <li class="tours__gallery-item">
   <div class="tours__gallery-img-container">
     <img
-      src="./images/divers.jpg"
-      alt="Elephants"
+      src="${divers}"
+      alt="Divers"
       width="353"
       height="402"
       class="tours__gallery-img"
@@ -779,27 +669,18 @@ function onBtnClick(event) {
   </p>
   <ul class="tours__gallery-info-list">
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-instagram-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Photographer:</span>
         Alicia Keish
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-clocks-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Duration:</span>
         10 days
       </p>
     </li>
     <li class="tours__gallery-info-item">
-      <svg class="tours__gallery-info-icon" width="20" height="20">
-        <use href="./images/icons.svg#icon-star-tour"></use>
-      </svg>
       <p class="tours__gallery-info-text">
         <span class="tours__gallery-info-accent">Type:</span> Nature &
         adventure, Diving
