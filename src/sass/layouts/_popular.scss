@@ -1,3 +1,7 @@
+.popular {
+  padding-bottom: 0;
+}
+
 .popular__header {
   display: flex;
   flex-direction: column;
@@ -100,12 +104,14 @@
 }
 
 .popular__item-title {
+  margin-top: 10px;
   font-size: 22px;
   font-weight: 700;
   color: $accent-color;
 
   @media (min-width: 768px) {
     font-size: 23px;
+    color: $title-color;
   }
 
   @media (min-width: 1200px) {

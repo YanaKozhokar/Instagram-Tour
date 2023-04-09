@@ -1,0 +1,67 @@
+.explore {
+  padding-top: 0;
+  padding-bottom: 0;
+  //   height: 545px;
+  background-image: url('../images/camera-desk.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 545px;
+
+    @media (min-width: 768px) {
+      min-height: 674px;
+    }
+
+    @media (min-width: 1200px) {
+      min-height: 825px;
+    }
+  }
+}
+
+.explore__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: $background-primary;
+
+  @media (min-width: 768px) {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.explore__icon {
+  width: 26px;
+  height: 26px;
+  fill: $advantages-icon-fill;
+
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.explore__title {
+  min-width: 180px;
+  font-size: 34px;
+  font-weight: 900;
+  text-align: center;
+  color: $secondary-text-color;
+
+  @media (min-width: 768px) {
+    font-size: 38px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 42px;
+  }
+}
