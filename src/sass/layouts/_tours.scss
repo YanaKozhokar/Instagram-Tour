@@ -33,6 +33,7 @@
   display: flex;
   margin-top: 40px;
   width: 100%;
+  overflow-x: auto;
   border-bottom: 1px solid $line;
 }
 
@@ -51,5 +52,31 @@
 }
 
 .tours__gallery {
-  margin-top: 20px;
+}
+
+.tours__gallery-img-container {
+  width: 272px;
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) {
+    width: 337px;
+    height: 384px;
+  }
+  @media (min-width: 1200px) {
+    width: 353px;
+    height: 403px;
+  }
+}
+
+.tours__gallery-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.tours__gallery-info-item {
+  display: flex;
 }
