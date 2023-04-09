@@ -1,0 +1,30 @@
+.tours__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.tours__title-wrap {
+  @media (min-width: 768px) {
+    max-width: 215px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 353px;
+  }
+}
+
+.tours__description {
+  margin-top: 40px;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+    max-width: 337px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 545px;
+  }
+}
