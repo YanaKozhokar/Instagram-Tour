@@ -6,9 +6,14 @@
   @media (min-width: 768px) {
     flex-direction: row;
   }
+}
 
-  & .pretitle {
-    max-width: 323px;
+.popular__title-wrap {
+  @media (min-width: 768px) {
+    max-width: 215px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 353px;
   }
 }
 
@@ -16,38 +21,77 @@
   margin-top: 40px;
 
   @media (min-width: 768px) {
-    max-width: 336px;
     margin-top: 0;
-    margin-left: auto;
+    max-width: 337px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 545px;
+  }
+}
+
+.popular__list {
+  display: grid;
+  row-gap: 60px;
+  column-gap: 30px;
+  margin-top: 60px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
   }
 
   @media (min-width: 1200px) {
-    max-width: 532px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-.popular__gallery {
-  margin-top: 50px;
-}
-
 .popular__item {
-  width: 280px;
-  padding-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+  }
 }
 
-.popular__img {
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-  object-fit: cover;
+.popular__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: $advantages-bg;
+
+  @media (min-width: 768px) {
+    width: 70px;
+    height: 70px;
+  }
 }
 
-.gallery__title {
-  margin-top: 20px;
+.popular__icon {
+  width: 26px;
+  height: 26px;
+  fill: $advantages-icon-fill;
+
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.popular__item-description {
+  margin-left: 15px;
+
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
+}
+
+.popular__item-title {
   font-size: 22px;
   font-weight: 700;
-  line-height: 1.67;
-  color: $title-color;
+  color: $accent-color;
 
   @media (min-width: 768px) {
     font-size: 23px;
@@ -56,31 +100,4 @@
   @media (min-width: 1200px) {
     font-size: 24px;
   }
-}
-
-.gallery__price {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.5;
-}
-
-.gallery__amount {
-  font-size: 20px;
-  color: $accent-color;
-}
-
-.swiper-button-prev,
-.swiper-button-next,
-.swiper-pagination {
-  color: $accent-color;
-}
-
-.swiper-pagination-bullet {
-  background-color: #989898;
-  color: #989898;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: $accent-color;
 }
