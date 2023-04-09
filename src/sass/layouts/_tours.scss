@@ -28,3 +28,28 @@
     max-width: 545px;
   }
 }
+
+.tours__buttons-list {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  border-bottom: 1px solid $line;
+}
+
+.tours__button {
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: $primary-text-color;
+
+  &:hover {
+    color: $title-color;
+  }
+}
+
+.tours__gallery {
+  margin-top: 20px;
+}
