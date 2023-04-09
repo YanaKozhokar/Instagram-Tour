@@ -225,10 +225,10 @@ function onBtnClick(event) {
   <div class="tours__gallery-img-container">
     <img
       src="${statueOfLiberty}"
-      alt="StatueOfLiberty"
+      alt="Statue of liberty"
       width="353"
       height="402"
-      class="Statue of liberty"
+      class="tours__gallery-img"
     />
   </div>
   <h3 class="tours__gallery-title">New York</h3>
