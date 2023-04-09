@@ -56,20 +56,31 @@
 }
 
 .tours__gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 30px;
+  gap: 50px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .tours__gallery-img-container {
-  width: 272px;
+  width: 100%;
   height: 310px;
   margin-left: auto;
   margin-right: auto;
 
   @media (min-width: 768px) {
-    width: 337px;
     height: 384px;
   }
   @media (min-width: 1200px) {
-    width: 353px;
     height: 403px;
   }
 }

@@ -35,7 +35,7 @@ function onBtnClick(event) {
     return `<li class="tours__gallery-item">
         <div class="tours__gallery-img-container">
           <img
-            src="./images/fabulous-rome.jpg"
+            src="images/fabulous-rome.jpg"
             alt="Couple in Rome"
             width="353"
             height="402"
