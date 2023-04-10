@@ -1,0 +1,2 @@
+const e=document.querySelector("[data-menu]"),t=document.querySelector("[data-menu-open]"),o=document.querySelector("[data-menu-close]");function n(){e.classList.toggle("is-hidden"),e.classList.contains("is-hidden")?document.querySelector("body").style.overflow="visible":document.querySelector("body").style.overflow="hidden"}t.addEventListener("click",n),o.addEventListener("click",n);
+//# sourceMappingURL=index.32fd0f41.js.map
