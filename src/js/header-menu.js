@@ -7,4 +7,8 @@ closeMenuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
   menu.classList.toggle('is-hidden');
+
+  !menu.classList.contains('is-hidden')
+    ? (document.querySelector('body').style.overflow = 'hidden')
+    : (document.querySelector('body').style.overflow = 'visible');
 }
