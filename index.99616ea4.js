@@ -1,0 +1,2 @@
+document.querySelector(".faq__accordion").addEventListener("click",(function(e){e.target.closest(".faq__accordion-item").querySelector(".faq__accordeon-answer").classList.contains("is-hidden")?e.target.closest(".faq__accordion-item").querySelector(".faq__accordion-icon").style="transform: rotate(180deg);":e.target.closest(".faq__accordion-item").querySelector(".faq__accordion-icon").style="transform: rotate(0);";e.target.closest(".faq__accordion-item").querySelector(".faq__accordeon-answer").classList.toggle("is-hidden")}));
+//# sourceMappingURL=index.99616ea4.js.map
