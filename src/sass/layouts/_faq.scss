@@ -1,21 +1,30 @@
 .faq {
   .container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
 
     @media (min-width: 768px) {
-      flex-direction: row;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
     }
   }
 }
 
 .faq__text {
   margin-top: 25px;
+
+  @media (min-width: 768px) {
+    margin-top: 40px;
+  }
 }
 
 .faq__accordion {
   margin-top: 15px;
+
+  @media (min-width: 768px) {
+    margin-top: 30px;
+  }
 }
 
 .faq__accordion-item {
@@ -52,4 +61,19 @@
 
 .faq__accordeon-answer {
   margin-bottom: 20px;
+}
+
+.faq__img-container {
+}
+
+.faq__img {
+  margin-bottom: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+
+  @media (min-width: 768px) {
+    height: auto;
+  }
 }
