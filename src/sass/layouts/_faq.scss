@@ -18,14 +18,38 @@
   margin-top: 15px;
 }
 
+.faq__accordion-item {
+  border-bottom: 1px solid $line;
+}
+
 .faq__accordion-question-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .faq__accordion-question {
-  font-size: 20px;
+  max-width: calc(100% - 35px);
+  font-size: 18px;
   font-weight: 700;
+  color: $title-color;
+
+  @media (min-width: 768px) {
+    font-size: 19px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+
+.faq__accordion-icon {
+  flex-shrink: 0;
+  fill: $primary-text-color;
+}
+
+.faq__accordeon-answer {
+  margin-bottom: 20px;
 }
