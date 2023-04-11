@@ -2,14 +2,37 @@
   &.section {
     padding-top: 0;
   }
+
+  .container {
+    padding-left: 10;
+    padding-right: 10;
+  }
+
+  .socials {
+    margin-top: 10px;
+  }
+
+  .socials-item {
+    width: 30px;
+    height: 30px;
+    background-color: $advantages-icon-fill;
+  }
 }
 
 .photographers__item {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
+    gap: 46px;
+  }
+
+  @media (min-width: 768px) {
+    gap: 60px;
   }
 }
 
@@ -17,11 +40,11 @@
   background-color: $background-secondary;
 
   @media (min-width: 768px) {
-    max-height: 672px;
+    height: 551px;
   }
 
   @media (min-width: 1200px) {
-    max-height: 541px;
+    height: 541px;
   }
 }
 
@@ -31,14 +54,18 @@
   object-fit: cover;
 }
 
-.photographers__description {
-  padding: 40px;
+.photographers__text {
+  margin-top: 20px;
+}
 
-  @media (min-width: 768px) {
-    padding: 46px;
-  }
+.photographers__follow {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: $title-color;
+}
 
-  @media (min-width: 1200px) {
-    padding: 60px;
-  }
+.swiper-button-prev,
+.swiper-button-next {
+  color: $accent-color;
 }
