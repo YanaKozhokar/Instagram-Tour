@@ -1,3 +1,12 @@
+.header {
+  .socials {
+    background-color: $socials-header-bg-primary;
+
+    &:hover {
+      background-color: $socials-header-bg-accent;
+    }
+  }
+}
 .header__contacts {
   display: none;
   background-color: $background-accent;
