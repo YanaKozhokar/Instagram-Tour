@@ -1,0 +1,44 @@
+.photographers {
+  &.section {
+    padding-top: 0;
+  }
+}
+
+.photographers__item {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.photographers__img-container {
+  background-color: $background-secondary;
+
+  @media (min-width: 768px) {
+    max-height: 672px;
+  }
+
+  @media (min-width: 1200px) {
+    max-height: 541px;
+  }
+}
+
+.photographers__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photographers__description {
+  padding: 40px;
+
+  @media (min-width: 768px) {
+    padding: 46px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 60px;
+  }
+}

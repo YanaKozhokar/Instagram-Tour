@@ -87,6 +87,7 @@
 .about__img-container {
   flex-shrink: 0;
   width: 100%;
+  background-color: $background-secondary;
 
   @media (min-width: 768px) {
     width: 337px;
