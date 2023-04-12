@@ -31,7 +31,14 @@
   }
 
   @media (min-width: 1200px) {
+    gap: 35px;
     flex-direction: row;
+  }
+}
+
+.footer__nav-item {
+  &:hover {
+    color: $accent-color;
   }
 }
 
