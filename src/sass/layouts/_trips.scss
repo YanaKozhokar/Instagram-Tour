@@ -36,9 +36,17 @@
 
 .trips__img {
   width: 100%;
-  height: 100%;
+  height: 315px;
   border-radius: 6px;
   object-fit: cover;
+
+  @media (min-width: 768px) {
+    height: 390px;
+  }
+
+  @media (min-width: 1200px) {
+    height: 298px;
+  }
 }
 
 .gallery__title {
