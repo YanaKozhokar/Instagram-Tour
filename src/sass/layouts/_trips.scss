@@ -39,6 +39,11 @@
   height: 315px;
   border-radius: 6px;
   object-fit: cover;
+  object-position: center;
+
+  @media (min-width: 480px) {
+    height: 415px;
+  }
 
   @media (min-width: 768px) {
     height: 390px;
