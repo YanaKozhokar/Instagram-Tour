@@ -17,6 +17,100 @@
     />
     <link rel="stylesheet" href="./sass/index.scss" />
     <!-- <script type="module" src="./index.js"></script> -->
+    <style>
+      .hero {
+        margin: auto;
+        background-color: #f9f8f6;
+        background-image: url('./images/hero-bg-mob-1x.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .hero.section {
+        padding-top: 160px;
+        padding-bottom: 130px;
+      }
+
+      .hero__main {
+        margin-left: auto;
+        padding: 30px;
+        border-radius: 7px;
+        color: #ffffff;
+        background: rgba(63, 54, 49, 0.75);
+      }
+
+      .hero__title {
+        font-size: 56px;
+        font-weight: 900;
+        line-height: 1.1;
+      }
+
+      .hero__title::after {
+        content: '.';
+        color: #ff503e;
+      }
+
+      .hero__link-wrap {
+        display: inline-block;
+        margin-top: 30px;
+      }
+
+      .hero__link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .hero__link-text {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .hero__link-text:hover {
+        text-decoration: underline;
+      }
+
+      .hero__arrow-icon {
+        fill: #ffffff;
+      }
+
+      @media screen and (min-width: 768px) {
+        .hero {
+          background-image: url('./images/hero-bg-tab-1x.webp');
+        }
+
+        .hero__main {
+          padding: 35px;
+          max-width: 337px;
+        }
+
+        .hero__title {
+          font-size: 63px;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .hero {
+          background-image: url('./images/hero-bg-desk-1x.webp');
+        }
+
+        .hero.section {
+          padding-top: 210px;
+          padding-bottom: 280px;
+        }
+
+        .hero__main {
+          padding: 50px;
+          max-width: 545px;
+        }
+
+        .hero__title {
+          font-size: 70px;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
