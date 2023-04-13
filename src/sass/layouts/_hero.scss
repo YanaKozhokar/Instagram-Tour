@@ -1,7 +1,7 @@
 .hero {
   margin: auto;
   background-color: $background-secondary;
-  background-image: url('../images/hero-bg-mob-1x.jpg');
+  background-image: url('../images/hero-bg-mob-1x.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,24 +18,24 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url('../images/hero-bg-mob-2x.jpg');
+    background-image: url('../images/hero-bg-mob-2x.webp');
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url('../images/hero-bg-tab-1x.jpg');
+    background-image: url('../images/hero-bg-tab-1x.webp');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url('../images/hero-bg-tab-2x.jpg');
+      background-image: url('../images/hero-bg-tab-2x.webp');
     }
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: url('../images/hero-bg-desk-1x.jpg');
+    background-image: url('../images/hero-bg-desk-1x.webp');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url('../images/hero-bg-desk-2x.jpg');
+      background-image: url('../images/hero-bg-desk-2x.webp');
     }
   }
 
