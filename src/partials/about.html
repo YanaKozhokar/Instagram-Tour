@@ -52,13 +52,39 @@
       </ul>
     </div>
     <div class="about__img-container">
-      <img
-        src="./images/couple-desk.jpg"
-        alt="A couple"
-        width="535"
-        height="637"
-        class="about__img"
-      />
+      <picture>
+        <source
+          class="about__img"
+          srcset="
+            ./images/couple-about-desk-1x.jpg 1x,
+            ./images/couple-about-desk-2x.jpg 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          class="about__img"
+          srcset="
+            ./images/couple-about-tab-1x.jpg 1x,
+            ./images/couple-about-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          class="about__img"
+          srcset="
+            ./images/couple-about-mob-1x.jpg 1x,
+            ./images/couple-about-mob-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./images/couple-about-desk-1x.jpg"
+          alt="A couple"
+          width="535"
+          height="637"
+          class="about__img"
+        />
+      </picture>
     </div>
   </div>
 </section>
